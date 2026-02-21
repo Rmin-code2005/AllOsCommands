@@ -17,4 +17,4 @@ license = { text = "MIT" }
 include-package-data = false
 
 [tool.setuptools.packages.find]
-include = ["AllOsCommands*"]
+include = ["AllOsCommands*", "all_os_commands*"]
