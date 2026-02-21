@@ -1,17 +1,13 @@
-# all-os-commands
-
-A tiny package with cross-platform terminal helpers.
-
 ## Installation
 
-```bash
-pip install .
-```
+# از روی GitHub:
+pip install git+https://github.com/Rmin-code2005/AllOsCommands.git
 
 ## Usage
 
-```python
-from AllOsCommands import clearOnAllUI, is_enter_pressed
+from all_os_commands import clearOnAllUI, is_enter_pressed
 
 clearOnAllUI()
-```
+
+if is_enter_pressed():
+    print("Enter pressed!")

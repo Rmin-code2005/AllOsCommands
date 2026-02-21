@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "all-os-commands"
+version = "0.1.0"
+description = "Cross-platform terminal helpers"
+readme = "README.md"
+requires-python = ">=3.7"
