@@ -3,7 +3,7 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.backends.legacy:build"
 
 [project]
-name = "all-os-commands"
+name = "all_os_commands"
 version = "0.1.0"
 description = "Cross-platform terminal helpers"
 readme = "README.md"
